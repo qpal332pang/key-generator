@@ -1,85 +1,5 @@
 
 export default {
-  product: {
-    title: '생산품',
-    selfCustodyWallet: '모바일 지갑',
-    selfCustodyWalletDesc: '블록체인 진입, 모바일 멀티체인 지갑',
-    hardwareWallet: '하드웨어 지갑',
-    hardwareWalletDesc: '키팔로 자산을 보호하고 안전하고 안심하세요.',
-    extensionWallet: '플러그인 지갑',
-    extensionWalletDesc: '너의 컴퓨터에 더 좋은 지갑을 놓아라',
-    transit: 'Transit',
-    transitDesc: '멀티체인 DEX 애그리게이터 및 NFT 마켓플레이스 플랫폼',
-    fiveDegrees: '5Degrees',
-    fiveDegreesDesc: 'Web3.0의 소셜 네트워크 프로토콜',
-    stakeVault: 'ETH Staking Vault',
-    stakeVaultDesc: '자체 보관 스테이킹과 소액 스테이킹을 모두 지원합니다'
-  },
-  project: {
-    subDApp: 'DApp 체출하기',
-    subToken: '토큰 제출하기',
-    subNFT: 'NFT 제출',
-    subChain: '체인',
-  },
-  assets: {
-    title: '자산',
-  },
-  collaborations: {
-    title: '협업',
-  },
-  community: {
-    title: '커뮤니티',
-    developers: '개발자',
-    recruiting: '모병',
-  },
-  helpCenter: {
-    title: '도움',
-  },
-  features: {
-    title: '기능',
-    buyCrypto: '암호화폐 구매',
-    mobileWallet: '모바일 지갑',
-    hardwareWallet: '하드웨어 지갑',
-    extensionWallet: '플러그인 지갑',
-    desktop: '데스크탑 지갑',
-    fiveDegrees: '5Degrees',
-    approvalDetector: '감지 승인',
-    tokenSecurity: '토큰 보안',
-    keyGenerator: '열쇠 생성기',
-    BATCH_SENDER: '일괄 송신자',
-  },
-  information: {
-    title: '정보',
-    blockchainGuide: 'Blockchain 지갑 가이드라인',
-    tronWallet: 'TRON 지갑 가이드라인',
-    iostWallet: 'IOST 지갑 가이드라인',
-    tpMan: 'TP 맨',
-  },
-  developers: {
-    title: '开发개발자者',
-    github: 'Github (TP-Lab)',
-    devCenter: '개발자 센터',
-    subToken: '토큰 제출하기',
-    subDApp: 'DApp 체출하기',
-    subNFT: 'NFT 제출',
-  },
-  company: {
-    title: '회사',
-    about: '에 대한',
-    careers: '직업',
-    pressKit: '프레스 키트',
-    swagShop: '스웨그 샵',
-  },
-  support: {
-    title: '서포트',
-    helpCenter: '도움 센터',
-    contactUs: '연락주세요',
-  },
-  legal: {
-    title: '법률',
-    privacyPolicy: '개인 정보 보호 정책',
-    terms: '이용 약관',
-  },
   chain: {
     btc: 'BTC',
     ethereum: 'ETH / EVMs',
@@ -126,4 +46,100 @@ export default {
       '주의! TokenPocket 커뮤니티에 참여 중입니다. 누군가 우리를 사칭하여 개인 메시지를 보낼 수 있습니다! 개인 메시지를 보내는 사람은 모두 사기꾼일 수 있다는 점에 유의하세요! 우리는 당신에게 먼저 연락하지 않을 것입니다!',
     desc3: '이해, 입력'
   },
+  COMMON: {
+    LAYOUT: {
+      features: '기능',
+      products: '제품',
+      buyCryptoFooter: '암호화폐 구매',
+      mobileWallet: '모바일 지갑',
+      mobileWalletDesc: '블록체인 기반 암호화폐 & DeFi 모바일 지갑.',
+      hardwareWallet: '하드웨어 지갑',
+      hardwareWalletDesc: 'KeyPal로 자산을 보호하세요.',
+      extensionWallet: '익스텐션 지갑',
+      extensionWalletDesc: '컴퓨터에서 더 나은 지갑 사용.',
+      desktop: '데스크탑 지갑',
+      fiveDegrees: '5Degrees',
+      versionVerification: '버전 검증',
+      versionVerificationDesc: '지갑을 검증하세요.',
+      approvalDetector: '승인 탐지기',
+      approvalDetectorDesc: '승인된 토큰 보기 및 승인 해제.',
+      tokenSecurity: '토큰 보안',
+      tokenSecurityDesc: '토큰의 계약 주소를 통해 보안을 확인하세요.',
+      keyGenerator: '키 생성기',
+      keyGeneratorDesc: '여러 네트워크를 위한 퍼블릭 및 프라이빗 키 무작위 생성.',
+      tokenProfile: '토큰 프로필',
+      tokenProfileDesc: '토큰에 대한 모든 정보 알아보기.',
+      tokenClaim: '토큰 청구',
+      tokenClaimDesc: '에어드랍 청구.',
+      easyInscription: '간편한 인스크립션',
+      easyInscriptionDesc: '안전한 인스크립션 도구.',
+      nostrAssetsBatchSender: 'NostrAssets 일괄 전송',
+      nostrAssetsBatchSenderDesc: 'NostrAssets용 일괄 전송 도구.',
+      BATCH_SENDER: '일괄 전송',
+      BATCH_SENDER_DESC: '한 번에 여러 수신자에게 토큰 전송.',
+  
+      trade: '거래',
+      swap: '트랜짓 스왑',
+      swapDesc: '최상의 가격으로 스왑',
+      bridge: 'Bridge',
+      bridgeDesc: 'Ensuring seamless asset liquidity.',
+      buyCrypto: '구매',
+      buyCryptoDesc: '신용카드로 암호화폐 구매.',
+      market: '마켓',
+      marketDesc: '실시간 인사이트 인기 토큰 확인.',
+  
+      information: '정보',
+      blockchainGuide: 'Blockchain 지갑 가이드라인',
+      tronWallet: 'TRON 지갑 가이드라인',
+      iostWallet: 'IOST 지갑 가이드라인',
+      tpMan: 'TP 맨',
+  
+      developers: '개발자',
+      github: 'Github (TP-Lab)',
+      devCenter: '개발자 센터',
+      developersDesc: '토큰포켓 개발자 문서.',
+      subToken: '토큰 제출',
+      subTokenDesc: '토큰 제출.',
+      subDApp: 'DApp 제출',
+      subDAppDesc: 'DApp 제출 검토 후 표시.',
+      subNFT: 'NFT 제출',
+      subNFTDesc: 'NFT 및 예술 작품 제출.',
+      subChain: '체인 제출',
+      subChainDesc: '블록체인 제출.',
+      bugBounty: '버그 바운티',
+  
+      tools: '도구',
+  
+      build: '빌드',
+  
+      learn: 'Learn',
+  
+      explorer: 'Explorer',
+  
+      company: '회사',
+      about: '에 대한',
+      careers: '직업',
+      pressKit: '브랜드 키트',
+      swagShop: '스웨그 샵',
+  
+      support: '서포트',
+      helpCenter: '도움 센터',
+      helpCenterDesc: '답변과 지원을 위한 리소스.',
+      contactUs: '문의하기',
+      contactUsDesc: '제안 공유 및 질문.',
+      forum: '포럼',
+      forumDesc: '커뮤니티 회원들과의 대화.',
+  
+      legal: '법률',
+      privacyPolicy: '개인 정보 보호 정책',
+      terms: '이용 약관',
+  
+      toHome: '홈',
+      defiWallet: 'DeFi 지갑',
+      ETHWallet: '이더리움 지갑',
+      ethWallet: 'eth 지갑',
+
+      dappStore: 'DApp 스토어'
+    }
+  }
 };

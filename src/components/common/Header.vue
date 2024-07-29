@@ -68,7 +68,7 @@ export default {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 10000;
+  z-index: 9998;
   background: #fff;
   &.scrollBg {
     filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.05));

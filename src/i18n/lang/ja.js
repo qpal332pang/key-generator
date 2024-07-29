@@ -1,85 +1,5 @@
 
 export default {
-  product: {
-    title: '製品',
-    selfCustodyWallet: 'モバイルウォレット',
-    selfCustodyWalletDesc: 'ブロックチェーンの暗号資産&DeFiモバイルウォレット',
-    hardwareWallet: 'ハードウェアウォレット',
-    hardwareWalletDesc: 'あなたの資産を守る、KeyPalをゲットしよう。',
-    extensionWallet: '拡張ウォレット',
-    extensionWalletDesc: 'デスクトップでより良いウォレットを。',
-    transit: 'Transit',
-    transitDesc: 'マルチチェーンのDEXアグリゲーター&NFTマーケットプレイス',
-    fiveDegrees: '5Degrees',
-    fiveDegreesDesc: 'Web3.0のソーシャルネットワークプロトコル',
-    stakeVault: 'ETH Staking Vault',
-    stakeVaultDesc: '自己保管のステーキングと少額ステーキングの両方をサポートしています'
-  },
-  project: {
-    subDApp: 'DAppを投稿',
-    subToken: 'トークンを投稿',
-    subNFT: 'NFTを投稿',
-    subChain: 'チェーン',
-  },
-  assets: {
-    title: 'アセット',
-  },
-  collaborations: {
-    title: 'コラボレーション',
-  },
-  community: {
-    title: 'コミュニティ',
-    developers: '開発者',
-    recruiting: 'TPマン(採用)',
-  },
-  helpCenter: {
-    title: 'ヘルプセンター',
-  },
-  features: {
-    title: 'プロダクト',
-    buyCrypto: '暗号資産を購入',
-    mobileWallet: 'モバイルウォレット',
-    hardwareWallet: 'ハードウェアウォレット',
-    extensionWallet: '拡張ウォレット',
-    desktop: 'デスクトップウォレット',
-    fiveDegrees: '5Degrees',
-    approvalDetector: 'アプルーバルディテクター',
-    tokenSecurity: 'トークンセキュリティ',
-    keyGenerator: 'キージェネレーター',
-    BATCH_SENDER: 'バッチセンダー',
-  },
-  information: {
-    title: '詳細',
-    blockchainGuide: 'ブロックチェーンガイド',
-    tronWallet: 'TRON Guide',
-    iostWallet: 'IOST Guide',
-    tpMan: 'TPマン',
-  },
-  developers: {
-    title: '開発者',
-    github: 'Github (TP-Lab)',
-    devCenter: '開発者センター',
-    subToken: 'トークンを投稿',
-    subDApp: 'DAppを投稿',
-    subNFT: 'NFTを投稿',
-  },
-  company: {
-    title: '会社',
-    about: 'TokenPocketについて',
-    careers: 'キャリア',
-    pressKit: 'プレスキット',
-    swagShop: 'スワッグショップ',
-  },
-  support: {
-    title: 'サポート',
-    helpCenter: 'ヘルプセンター',
-    contactUs: 'お問い合わせ',
-  },
-  legal: {
-    title: '法的情報',
-    privacyPolicy: 'プライバシーポリシー',
-    terms: '利用規約',
-  },
   chain: {
     btc: 'BTC',
     ethereum: 'ETH / EVMs',
@@ -126,4 +46,100 @@ export default {
       '注意！ TokenPocket コミュニティに参加しようとしています。誰かが私たちになりすましてプライベート メッセージを送信している可能性があります。 プライベート メッセージを送信する人は詐欺師である可能性があることに注意してください。 最初に連絡することはありません！',
     desc3: '了解、入力'
   },
+  COMMON: {
+    LAYOUT: {
+      features: 'プロダクト',
+      products: 'プロダクト',
+      buyCryptoFooter: '暗号通貨を購入する',
+      mobileWallet: 'モバイルウォレット',
+      mobileWalletDesc: 'ブロックチェーンのモバイルウォレット。',
+      hardwareWallet: 'ハードウェアウォレット',
+      hardwareWalletDesc: '資産を守るためにKeyPalを手に入れよう！',
+      extensionWallet: 'ブラウザ拡張ウォレット',
+      extensionWalletDesc: 'コンピューター上でのより良いウォレット',
+      desktop: 'デスクトップウォレット',
+      fiveDegrees: '5Degrees',
+      versionVerification: 'バージョン検証',
+      versionVerificationDesc: 'ウォレットの検証',
+      approvalDetector: 'アプルーバルディテクター',
+      approvalDetectorDesc: 'アプルーブの表示とリボーク',
+      tokenSecurity: 'トークンセキュリティ',
+      tokenSecurityDesc: 'トークンのコントラクトアドレスを監査',
+      keyGenerator: 'キージェネレーター',
+      keyGeneratorDesc: 'さまざまなネットワークの公開鍵と秘密鍵をランダムに生成',
+      tokenProfile: 'トークンプロファイル',
+      tokenProfileDesc: 'トークンに関する全ての情報を確認',
+      tokenClaim: 'トークンクレーム',
+      tokenClaimDesc: 'エアドロップを受け取る',
+      easyInscription: 'イージーインスクリプション',
+      easyInscriptionDesc: '安全かつ簡単なインスクリプションのためのツール',
+      nostrAssetsBatchSender: 'NostrAssetsバッチトランスファー',
+      nostrAssetsBatchSenderDesc: 'NostrAssetsのためのバッチトランスファーツール',
+      BATCH_SENDER: 'バッチトランスファー',
+      BATCH_SENDER_DESC: '複数のアドレスに一度にトークンを転送',
+
+      trade: '取引',
+      swap: 'TransitSwap',
+      swapDesc: 'ベストレートで取引。',
+      bridge: 'Bridge',
+      bridgeDesc: 'Ensuring seamless asset liquidity.',
+      buyCrypto: '購入',
+      buyCryptoDesc: 'クレジットカードで暗号資産を購入',
+      market: '市場',
+      marketDesc: 'リアルタイムインサイトでトレンドのトークンを見つける',
+
+      information: '詳細',
+      blockchainGuide: 'ブロックチェーンガイド',
+      tronWallet: 'TRON Guide',
+      iostWallet: 'IOST Guide',
+      tpMan: 'TPマン',
+
+      developers: '開発者',
+      github: 'Github (TP-Lab)',
+      devCenter: '開発者センター',
+      developersDesc: 'TokenPocket開発者向けドキュメント',
+      subToken: 'トークンを投稿',
+      subTokenDesc: 'トークンを投稿',
+      subDApp: 'DAppの投稿',
+      subDAppDesc: 'DAppを投稿し、監査後に表示',
+      subNFT: 'NFTの投稿',
+      subNFTDesc: 'NFTとアート作品の投稿',
+      subChain: 'チェーンを投稿',
+      subChainDesc: 'ブロックチェーンをを投稿',
+      bugBounty: 'バグバウンティ',
+
+      tools: 'ツール',
+
+      build: 'ビルド',
+
+      learn: '学ぶ',
+
+      explorer: 'エクスプローラー',
+
+      company: '会社',
+      about: 'TokenPocketについて',
+      careers: 'キャリア',
+      pressKit: 'ブランドキット',
+      swagShop: 'スワッグショップ',
+
+      support: 'サポート',
+      helpCenter: 'ヘルプセンター',
+      helpCenterDesc: '問題解決のためのアシスタント',
+      contactUs: 'お問い合わせ',
+      contactUsDesc: '提案を共有と質問',
+      forum: 'フォーラム',
+      forumDesc: 'コミュニティメンバーとの会話を楽しむ',
+
+      legal: '法的情報',
+      privacyPolicy: 'プライバシーポリシー',
+      terms: '利用規約',
+
+      toHome: 'ホーム',
+      defiWallet: 'DeFiウォレット',
+      ETHWallet: 'イーサリアムウォレット',
+      ethWallet: 'ETHウォレット',
+
+      dappStore: 'DAppストア'
+    }
+  }
 };

@@ -1,85 +1,5 @@
 
 export default {
-  product: {
-    title: '产品',
-    selfCustodyWallet: '手机钱包',
-    selfCustodyWalletDesc: '您的移动端数字资产钱包，支持iOS和Android',
-    hardwareWallet: '硬件钱包',
-    hardwareWalletDesc: '拥有KeyPal，让您的资产更安全',
-    extensionWallet: '插件钱包',
-    extensionWalletDesc: '您电脑上更好用的钱包',
-    transit: 'Transit',
-    transitDesc: '多链聚合、跨链工具及NFT市场',
-    fiveDegrees: '5Degrees',
-    fiveDegreesDesc: 'Web3.0上的社交网络协议',
-    stakeVault: '质押宝',
-    stakeVaultDesc: '支持自托管质押节点和小额灵活质押节点'
-  },
-  project: {
-    subDApp: '提交DApp',
-    subToken: '提交代币',
-    subNFT: '提交NFT',
-    subChain: '提交公链',
-  },
-  assets: {
-    title: '资产',
-  },
-  collaborations: {
-    title: '项目合作',
-  },
-  community: {
-    title: '社区',
-    developers: '开发者',
-    recruiting: 'TP侠',
-  },
-  helpCenter: {
-    title: '帮助中心',
-  },
-  features: {
-    title: '功能',
-    buyCrypto: '购买加密资产',
-    mobileWallet: '手机钱包',
-    hardwareWallet: '硬件钱包',
-    extensionWallet: '插件钱包',
-    desktop: '桌面端钱包',
-    fiveDegrees: '5Degrees',
-    approvalDetector: '授权检测',
-    tokenSecurity: '代币安全检测',
-    keyGenerator: '私钥生成器',
-    BATCH_SENDER: '批量转账',
-  },
-  information: {
-    title: '信息',
-    blockchainGuide: '区块链小白书',
-    tronWallet: '波场小白书',
-    iostWallet: 'IOST小白书',
-    tpMan: 'TP侠',
-  },
-  developers: {
-    title: '开发者',
-    github: 'Github (TP-Lab)',
-    devCenter: '开发者中心',
-    subDApp: '提交DApp',
-    subToken: '提交代币',
-    subNFT: '提交NFT',
-  },
-  company: {
-    title: '公司',
-    about: '关于',
-    careers: '招聘',
-    pressKit: '品牌素材',
-    swagShop: '周边商店',
-  },
-  support: {
-    title: '支持',
-    helpCenter: '帮助中心',
-    contactUs: '联系我们',
-  },
-  legal: {
-    title: '法律',
-    privacyPolicy: '隐私政策',
-    terms: '服务协议',
-  },
   chain: {
     btc: '比特币',
     ethereum: '以太坊 / EVMs',
@@ -124,4 +44,100 @@ export default {
       '请注意，您即将进入TokenPocket社区，您进入社区可能会有人假冒TokenPocket的工作人员私聊您，请您务必警惕，所有私聊您的都可能是骗子！TokenPocket工作人员不会主动跟您私信！',
     desc3: '知道了，继续前往'
   },
+  COMMON: {
+    LAYOUT: {
+      features: '功能',
+      products: '产品',
+      buyCryptoFooter: '购买数字资产',
+      mobileWallet: '手机钱包',
+      mobileWalletDesc: '您的移动端数字资产钱包，支持iOS和Android',
+      hardwareWallet: '硬件钱包',
+      hardwareWalletDesc: '拥有KeyPal，让您的资产更安全',
+      extensionWallet: '插件钱包',
+      extensionWalletDesc: '您电脑上更好用的钱包',
+      desktop: '桌面端钱包',
+      fiveDegrees: '5Degrees',
+      versionVerification: '版本校验',
+      versionVerificationDesc: '验证你的钱包是否为正版',
+      approvalDetector: '授权检测',
+      approvalDetectorDesc: '查看和取消授权您已经授权的代币',
+      tokenSecurity: '代币安全检测',
+      tokenSecurityDesc: '通过合约地址检查代币是否安全',
+      keyGenerator: '私钥生成器',
+      keyGeneratorDesc: '在多个网络上生成公钥和私钥',
+      tokenProfile: '代币信息',
+      tokenProfileDesc: '了解代币的全方位信息',
+      tokenClaim: '领取空投',
+      tokenClaimDesc: '获取您的空投',
+      easyInscription: '铭文助手',
+      easyInscriptionDesc: '安全的铭文铸造工具',
+      nostrAssetsBatchSender: 'Nostr批量转账',
+      nostrAssetsBatchSenderDesc: 'Nostr资产的批量发送工具',
+      BATCH_SENDER: '批量转账',
+      BATCH_SENDER_DESC: '一次性向多个接收者批量发送代币',
+  
+      trade: '交易',
+      swap: '闪兑',
+      swapDesc: '用最优价格交易',
+      bridge: '跨链桥',
+      bridgeDesc: '在不同公链之间无缝衔接资产',
+      buyCrypto: '购买代币',
+      buyCryptoDesc: '用信用卡购买数字资产',
+      market: '市场',
+      marketDesc: '实时洞察，发现热门代币',
+  
+      information: '信息',
+      blockchainGuide: '区块链小白书',
+      tronWallet: '波场小白书',
+      iostWallet: 'IOST小白书',
+      tpMan: 'TP侠',
+  
+      developers: '开发者资源',
+      github: 'Github (TP-Lab)',
+      devCenter: '开发者中心',
+      developersDesc: 'TokenPocket的开发者文档',
+      subToken: '提交代币',
+      subTokenDesc: '提交您的数字资产',
+      subDApp: '提交DApp',
+      subDAppDesc: '提交您的DApp，我们将在审核后展示它',
+      subNFT: '提交NFT',
+      subNFTDesc: '提交您的NFT和艺术品',
+      subChain: '提交公链',
+      subChainDesc: '提交您的区块链',
+      bugBounty: '漏洞赏金',
+  
+      tools: '工具',
+  
+      build: '开发者中心',
+  
+      learn: '学习',
+  
+      explorer: '探索',
+  
+      company: '公司',
+      about: '关于',
+      careers: '招聘',
+      pressKit: '品牌素材',
+      swagShop: '周边商店',
+  
+      support: '支持',
+      helpCenter: '帮助中心',
+      helpCenterDesc: '答疑解惑与获取资源的首选',
+      contactUs: '联系我们',
+      contactUsDesc: '分享您对TokenPocket的任何建议，提出您的任何疑问',
+      forum: '社区论坛',
+      forumDesc: '祝您与社区成员会谈愉快',
+  
+      legal: '法律',
+      privacyPolicy: '隐私策略',
+      terms: '服务协议',
+
+      toHome: '返回首页',
+      defiWallet: 'DeFi钱包',
+      ETHWallet: '以太坊錢包',
+      ethWallet: 'ETH钱包',
+
+      dappStore: 'DApp 商店'
+    }
+  }
 };
