@@ -123,7 +123,7 @@ export default {
             data: [
               {
                 title: this.$t('COMMON.LAYOUT.mobileWallet'),
-                url: `https://tokenpocket.pro/`
+                url: this.homeUrl
               },
               {
                 title: this.$t('COMMON.LAYOUT.hardwareWallet'),
@@ -253,18 +253,17 @@ export default {
               },
               {
                 title: this.$t('COMMON.LAYOUT.subDApp'),
-                url: `https://tokenpocket.pro/${this.$i18n.locale}/submit/dapp`
+                url: this.dappUrl
               },
               {
                 title: this.$t('COMMON.LAYOUT.subToken'),
-                url: `https://tokenpocket.pro/${this.$i18n.locale}/submit/token`
+                url: this.tokenUrl
               },
               {
                 title: this.$t('COMMON.LAYOUT.subNFT'),
-                url: `https://tokenpocket.pro/${this.$i18n.locale}/submit/nft`
+                url: this.nftUrl
               },
               {
-                local: true,
                 title: this.$t('COMMON.LAYOUT.subChain'),
                 url: 'https://github.com/TP-Lab/networklist-org'
               },
@@ -306,7 +305,7 @@ export default {
               var list = [
                 {
                   title: this.$t('COMMON.LAYOUT.about'),
-                  url: `https://tokenpocket.pro/${this.$i18n.locale}/about`
+                  url: this.aboutUrl
                 },
                 {
                   title: this.$t('COMMON.LAYOUT.careers'),
@@ -314,7 +313,7 @@ export default {
                 },
                 {
                   title: this.$t('COMMON.LAYOUT.tpMan'),
-                  url: `https://tokenpocket.pro/${this.$i18n.locale}/recruiting`
+                  url: this.recruitingUrl
                 },
                 {
                   title: this.$t('COMMON.LAYOUT.pressKit'),
@@ -351,13 +350,11 @@ export default {
             data: [
               {
                 title: this.$t('COMMON.LAYOUT.privacyPolicy'),
-                url: this.isZH
-                  ? '/privacy-zh/index.html'
-                  : '/privacy-en/index.html'
+                url: this.privacyUrl
               },
               {
                 title: this.$t('COMMON.LAYOUT.terms'),
-                url: this.isZH ? '/terms-zh/index.html' : '/terms-en/index.html'
+                url: this.termsUrl
               }
             ]
           }

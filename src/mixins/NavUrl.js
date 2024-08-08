@@ -270,6 +270,43 @@ export default {
     },
     tokenClaimUrl() {
       return `https://claim.tokenpocket.pro/?locale=${this.$i18n.locale}#/`
-    }
+    },
+    dappStoreUrl() {
+      if (this.isTokenPocketPro) {
+        return `https://tokenpocket.pro/${this.$i18n.locale}/dappstore`;
+      } else {
+        return `https://tpwallet.io/${this.$i18n.locale}/dappstore`;
+      }
+    },
+    privacyUrl() {
+      if (this.isTokenPocketPro) {
+        if (this.isZH) {
+          return `https://tokenpocket.pro/privacy-zh/index.html`;
+        } else {
+          return `https://tokenpocket.pro/privacy-en/index.html`;
+        }
+      } else {
+        if (this.isZH) {
+          return `https://tpwallet.io/privacy-zh/index.html`;
+        } else {
+          return `https://tpwallet.io/privacy-en/index.html`;
+        }
+      }
+    },
+    termsUrl() {
+      if (this.isTokenPocketPro) {
+        if (this.isZH) {
+          return `https://tokenpocket.pro/terms-zh/index.html`;
+        } else {
+          return `https://tokenpocket.pro/terms-en/index.html`;
+        }
+      } else {
+        if (this.isZH) {
+          return `https://tpwallet.io/terms-zh/index.html`;
+        } else {
+          return `https://tpwallet.io/terms-en/index.html`;
+        }
+      }
+    },
   }
 }

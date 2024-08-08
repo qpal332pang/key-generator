@@ -84,7 +84,7 @@ export default {
               class: 'nav-icon-1',
               desc: this.$t('COMMON.LAYOUT.mobileWalletDesc'),
               title: this.$t('COMMON.LAYOUT.mobileWallet'),
-              url: `https://tokenpocket.pro/`
+              url: this.homeUrl
             },
             {
               class: 'nav-icon-2',
@@ -196,7 +196,7 @@ export default {
         // dappstore
         {
           title: this.$t('COMMON.LAYOUT.dappStore'),
-          url: `https://tokenpocket.pro/${this.$i18n.locale}/dappstore`
+          url: this.dappStoreUrl
         },
         // 项目提交
         {
@@ -208,19 +208,19 @@ export default {
               class: 'nav-icon-19',
               desc: this.$t('COMMON.LAYOUT.subDAppDesc'),
               title: this.$t('COMMON.LAYOUT.subDApp'),
-              url: `https://tokenpocket.pro/${this.$i18n.locale}/submit/dapp`
+              url: this.dappUrl
             },
             {
               class: 'nav-icon-18',
               desc: this.$t('COMMON.LAYOUT.subNFTDesc'),
               title: this.$t('COMMON.LAYOUT.subNFT'),
-              url: `https://tokenpocket.pro/${this.$i18n.locale}/submit/nft`
+              url: this.nftUrl
             },
             {
               class: 'nav-icon-21',
               desc: this.$t('COMMON.LAYOUT.subTokenDesc'),
               title: this.$t('COMMON.LAYOUT.subToken'),
-              url: `https://tokenpocket.pro/${this.$i18n.locale}/submit/token`
+              url: this.tokenUrl
             },
             {
               class: 'nav-icon-20',
