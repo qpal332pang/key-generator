@@ -1,7 +1,7 @@
-# key-generator
+# 密钥生成器
 
-## Project setup
-Requirements: Node v16
+## 项目设置
+要求：Node v16
 ```
 npm install
 ```
@@ -22,4 +22,4 @@ npm run lint
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+看 [配置参考](https://cli.vuejs.org/config/).
